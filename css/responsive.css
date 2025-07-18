@@ -3,7 +3,7 @@
     header{
         padding: 30px 0;
     }
-    nav, .nav-menu > ul{
+    nav, .nav-menu > ul, .quick{
         flex-direction: column;
     }
     .nav-links{
@@ -16,8 +16,42 @@
         text-align: center;
         padding: 15px;
     }
+    /* banner media */
     .banner-title {
         font-size: 2rem;
+        margin-top: 20px;
+    }
+    /* quick media */
+    .quick-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .quick{
+        margin-top: 30px;
+    }
+    .quick-content{
+        margin: 30px 0;
+        margin-left: 20px;
     }
     
+}
+@media screen and (min-width: 576px) and (max-width:991px) {
+    /* nav media */
+    .nav-title{
+        margin-left: 20px;
+    }
+    /* banner media */
+    .banner-title{
+        margin-top: 50px;
+    }
+    /* quick media */
+    .quick{
+        flex-direction: column;
+    }
+    .quick-img{
+        gap: 40px;
+    }
+    .quick-content{
+        margin-top: 30px;
+        text-align: center;
+    }
 }
