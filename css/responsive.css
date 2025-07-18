@@ -3,7 +3,7 @@
     header{
         padding: 30px 0;
     }
-    nav, .nav-menu > ul, .quick{
+    nav, .nav-menu > ul, .quick, .features{
         flex-direction: column;
     }
     .nav-links{
@@ -32,19 +32,37 @@
         margin: 30px 0;
         margin-left: 20px;
     }
-    
+    /* features media */
+    .features{
+        margin-top: 30px;
+        gap: 30px;
+    }
+    .features-content{
+        margin-left: 20px;
+    }
+    .features-card{
+        margin-bottom: 10px;
+    }
+    .features-img img{
+        width: 100%;
+    }
+    .features-img .bnt-primary{
+        display: none;
+    }
 }
+
+
 @media screen and (min-width: 576px) and (max-width:991px) {
     /* nav media */
     .nav-title{
         margin-left: 20px;
     }
     /* banner media */
-    .banner-title{
+    .banner-title, .features{
         margin-top: 50px;
     }
     /* quick media */
-    .quick{
+    .quick, .features{
         flex-direction: column;
     }
     .quick-img{
@@ -53,5 +71,28 @@
     .quick-content{
         margin-top: 30px;
         text-align: center;
+    }
+    /* features media */
+    .features-content{
+        margin-left: 20px;
+    }
+    .features{
+        gap: 0;
+    }
+    .features-parent{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    .features-card{
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .features-img img{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .features-img button{
+        display: none;
     }
 }
