@@ -150,3 +150,36 @@ nav{
     font-weight: 500;
     line-height:60%;
 }
+/* facts styles */
+.facts{
+    margin-bottom: 130px;
+}
+.facts-title{
+    font-size: 2.75rem;
+    font-weight: bold;
+    color: #131313;
+}
+.facts-description{
+    font-size: 1rem;
+    margin: 24px 0 80px;
+}
+.fact-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+.fact-child{
+    border: 1px solid #ff900e;
+    border-radius: 8px;
+    width: 241px;
+    padding: 45px 35px;
+}
+.fact-child-year{
+    font-weight: 600;
+    font-size: 2.75rem;
+    color: #424242;
+}
+.fact-child-description{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
