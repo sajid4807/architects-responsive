@@ -152,7 +152,7 @@ nav{
 }
 /* facts styles */
 .facts{
-    margin-bottom: 130px;
+    margin-bottom: 100px;
 }
 .facts-title{
     font-size: 2.75rem;
@@ -182,4 +182,25 @@ nav{
 .fact-child-description{
     font-weight: 600;
     font-size: 1.25rem;
+}
+/* sponsors styles */
+.sponsors-titles{
+    text-align: center;
+}
+.sponsors-heading{
+    font-size: 2.75rem;
+    font-weight: bold;
+    color: #131313;
+}
+.sponsors-description{
+    font-size: 1rem;
+    margin: 20px 0 35px;
+}
+.sponsors-companies{
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    /* gap: 155px; */
+}
+.sponsors-companies img{
+    filter: grayscale(100%);
 }
