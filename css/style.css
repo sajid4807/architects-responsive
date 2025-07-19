@@ -199,8 +199,20 @@ nav{
 .sponsors-companies{
     display: grid;
     grid-template-columns:repeat(5, 1fr);
-    /* gap: 155px; */
 }
 .sponsors-companies img{
     filter: grayscale(100%);
+}
+/* footer styles */
+.footer{
+    margin: 130px 0;
+    background-color: #fff4e7;
+    text-align: center;
+    max-width: 1440px;
+    border-radius: 8px;
+}
+.footer p{
+    font-size: 1.25rem;
+    padding: 39px 0;
+    color: #424242;
 }

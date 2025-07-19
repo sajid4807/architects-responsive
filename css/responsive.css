@@ -67,6 +67,11 @@
         grid-template-columns: 1fr;
         justify-items: center;
         gap: 25px;
+        margin-bottom: 50px;
+    }
+    /* footer media */
+    .footer{
+        display: none;
     }
 }
 
@@ -131,5 +136,13 @@
     .sponsors-companies{
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
+    }
+    /* footer media */
+    .footer{
+        margin: 50px;
+    }
+    .footer p{
+        padding: 20px 0;
+        font-size: 1rem;
     }
 }
